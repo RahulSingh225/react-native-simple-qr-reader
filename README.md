@@ -11,11 +11,11 @@ npm install react-native-simple-qr-reader
 ## Usage
 
 ```js
-import { multiply } from 'react-native-simple-qr-reader';
+import { scanQR } from 'react-native-simple-qr-reader';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await scanQR();
 ```
 
 ## Contributing

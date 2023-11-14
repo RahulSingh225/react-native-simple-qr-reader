@@ -17,6 +17,6 @@ const SimpleQrReader = NativeModules.SimpleQrReader
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return SimpleQrReader.multiply(a, b);
+export function scanQR(): Promise<number> {
+  return SimpleQrReader.scanQR();
 }

@@ -39,13 +39,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/RahulSingh225/react-native-barcode-reader",
+  "repository": "https://github.com/RahulSingh225/react-native-simple-qr-reader",
   "author": "Rahul Singh <rahulsingh793@gmail.com> (https://github.com/RahulSingh225)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RahulSingh225/react-native-barcode-reader/issues"
+    "url": "https://github.com/RahulSingh225/react-native-simple-qr-reader/issues"
   },
-  "homepage": "https://github.com/RahulSingh225/react-native-barcode-reader#readme",
+  "homepage": "https://github.com/RahulSingh225/react-native-simple-qr-reader#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
