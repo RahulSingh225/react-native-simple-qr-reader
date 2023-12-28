@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-qr-reader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple qr/barcode reader for react native.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
