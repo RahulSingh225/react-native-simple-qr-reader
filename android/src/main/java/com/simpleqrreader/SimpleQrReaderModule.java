@@ -25,7 +25,7 @@ private Promise mPromise;
    private final ActivityEventListener mActivityEventListener = new BaseActivityEventListener() {
     @Override
     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
-      if (resultCode != Activity.RESULT_OK) mPromise.reject("Error","kk");
+      if (requestCode == barCodeActivityRequest && resultCode != Activity.RESULT_OK) mPromise.reject("Error","kk");
       if (requestCode == barCodeActivityRequest && data != null) {
         Barcode barcode =
           data.getParcelableExtra(BarcodeReaderActivity.KEY_CAPTURED_BARCODE);
